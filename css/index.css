@@ -49,6 +49,11 @@ table {
 
 /* Code Starts here */
 
+* {
+    margin: 30px 0;
+    box-sizing: border-box;
+}
+
 header nav {
     display: flex;
     justify-content: space-around;
@@ -61,4 +66,13 @@ header nav a {
 
 section.inline-block {
     text-align: center;
+    padding: 30px;
+}
+
+section.inline-block .block{
+    padding: 30px;
+    width: 30%;
+    margin: 10px;
+    border:2px solid gray;
+    display: inline-block;
 }
