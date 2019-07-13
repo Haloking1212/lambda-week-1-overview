@@ -49,30 +49,118 @@ table {
 
 /* Code Starts here */
 
-* {
-    margin: 30px 0;
+*{
+    margin:30px 0;
     box-sizing: border-box;
 }
 
-header nav {
+body {
+    background-color: beige;
+}
+
+header {
+    margin: 30px 0;
+}
+
+header nav{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
-header nav a {
+header nav a{
     color:gray;
-    text-decoration: none;
+    text-decoration:none;
 }
 
-section.inline-block {
-    text-align: center;
-    padding: 30px;
+section.inline-block{
+    text-align:center;
+    padding:30px;
 }
 
 section.inline-block .block{
-    padding: 30px;
-    width: 30%;
-    margin: 10px;
-    border:2px solid gray;
-    display: inline-block;
+    padding:30px;
+    width:30%;
+    margin:10px;
+    border:2px solid #ddd;
+    display:inline-block;
+}
+
+section.flex-box{
+    text-align:center;
+    padding:30px;
+}
+
+section.flex-box .flex-child{
+    display:flex;
+    flex-wrap: wrap;
+    width:700px;
+    margin:auto;
+}
+
+section.flex-box .block{
+
+    margin:30px;
+    width:100px;
+    height:100px;
+    border:2px solid #ddd;
+}
+
+section.flex-box .one{
+
+    background-color:teal;
+}
+
+section.flex-box .two{
+
+    background-color: black;
+}
+
+section.flex-box .three{
+
+    background-color:red;
+}
+
+section.flex-box .four{
+
+    background-color:purple;
+}
+
+section.flex-box .five{
+
+    background-color:rgba(211, 185, 35, 0.534);
+}
+
+section.flex-box .six{
+
+    background-color:rgb(55, 2, 59);
+}
+
+section.flex-box .seven{
+
+    background-color:rgb(26, 12, 88);
+}
+
+section.flex-box .eight{
+
+    background-color:rgb(24, 151, 30);
+}
+
+section.flex-box .nine{
+
+    background-color:rgb(103, 152, 185);
+}
+
+section.flex-box .ten{
+
+    background-color:rgb(16, 83, 63);
+}
+
+section.flex-box .eleven{
+
+    background-color:rgb(56, 85, 85);
+}
+
+section.flex-box .twelve{
+
+    background-color:rgb(97, 57, 5);
 }
